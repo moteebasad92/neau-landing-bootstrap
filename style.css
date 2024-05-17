@@ -1,0 +1,698 @@
+
+
+.btn{
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/*Header*/
+
+header nav.fixed-top{
+	top: initial;
+	background: transparent;
+    background-color: transparent !important;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+header nav.fixed-top.add-background{
+    background: #fff;
+    background-color: #fff !important;
+}
+
+header button.buy-now{
+	background-color: #4dc0e8 !important;
+    border-color: #4dc0e8 !important;
+    text-transform: uppercase;
+    padding: 4px 20px;
+}
+
+header .social-wrap{display: inline-block;}
+header span.icon-wrap{ vertical-align: middle;}
+header i{
+    color: #b1b1b1;
+    font-size: 20px !important;
+    margin-right: 10px;
+}
+header .navbar-toggler-icon{
+	background-image: url(http://localhost/neau-demo/wp-content/uploads/2022/05/HAMBURGER.png) !important;
+}
+header .navbar-toggler{border: none;}
+
+header .navbar-toggler:focus{box-shadow: initial;}
+
+header .logo-wrap img{
+    max-width: 195px;
+    padding-right: 50px;
+    margin-right: 140px;
+    transition: transform 0.7s;
+    transform: rotateZ(-90deg);
+}
+
+header .logo-wrap.rotate-logo img{
+    transform: rotateZ(0deg);
+    padding-left: 40px;
+    max-width: 230px;
+}
+header .navbar-collapse{
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+header .navbar-collapse ul{
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+}
+header .navbar-collapse li.nav-item {
+    font-family: 'Montserrat';
+}
+header .navbar-collapse li.nav-item a{color: #000;font-weight: 500;}
+
+
+
+/* Footer */
+
+footer .newsletter-container {
+    background-color: #4dc0e8;
+}
+footer .newsletter-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+footer .newsletter-text-wrap{
+        max-width: 440px;
+    margin-left: auto;
+}
+footer .newsletter-desc{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+footer .footer-columns-container {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-family: 'Lato', sans-serif;
+}
+
+footer .cd-container{
+    background-color: #000;
+    text-align: center;
+    color: #666666;
+}
+footer .footer-logo-wrap{text-align: center;}
+footer .social-info-ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 0px;
+}
+footer .social-info-ul a{color: #fff;text-decoration: none;}
+footer .social-info-ul li p{display: inline-block;margin-bottom: 10px;}
+footer .social-info-ul li img{margin-right: 10px;}
+
+footer form{text-align: center;}
+footer .footer-form-wrap input[type="text"],
+footer .footer-form-wrap input[type="email"]
+{
+    border-radius: initial;
+    margin-bottom: 5px;
+    width: 100%;
+    padding-left: 25px;
+}
+footer .footer-form-wrap textarea{
+    border-radius: initial;
+    margin-bottom: 5px;
+    height: 110px;
+    padding-left: 25px;
+    width: 100%;
+}
+footer .wpcf7-submit{
+    background-color: #4dc0e8;
+    border-color: #4dc0e8;
+    color: #fff;
+    text-transform: lowercase;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 9px 50px;
+    text-align: center;
+    border-radius: initial;
+}
+footer .contact-form-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff;
+}
+footer .wpcf7-spinner{
+    display: block;
+    margin: 10px auto 0;
+}
+footer .newsletter-form-wrap form{display: flex;}
+footer .newsletter-form-wrap .es_txt_email{
+    padding: 18px 250px 18px 20px;
+    width: 100%;
+    border-radius: initial;
+    border:initial;
+}
+
+footer .newsletter-form-wrap .es_subscription_form_submit{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border-color: #000;
+    border-radius: initial;
+}
+
+footer .newsletter-form-wrap .es-field-wrap{margin-bottom: 0px;}
+
+
+
+/*Home Page*/
+
+.bottle-img-wrap{
+    max-width: 535px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+    left: -150px;
+    right: 0;
+}
+
+.bottle-img-wrap img{
+	width: 100%;
+}
+
+.slider-sec .slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+.slider-sec .slider-wrap{position: relative;}
+.slider-sec .slick-slider-dots{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+  	justify-content: center;
+}	
+.slider-sec .slick-slider-dots ul{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	bottom: 25px;
+}	
+.slider-sec .slick-slider-dots li{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    margin: 0 5px;
+    padding: 0px;
+    cursor: pointer;
+}
+.slider-sec .slick-slider-dots li button{
+    background: #fff;
+    height: 4px;
+    width: 40px;
+    overflow: hidden;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.slider-sec .slick-slider-dots li.slick-active button{
+	background: #fff;
+	color: #fff;
+	height: 10px;
+}
+.slider-sec .slick-dots li button:before{
+	content: initial;
+}
+
+.slider-sec .slick-next:before {
+    content: initial;
+}
+.slider-sec .slick-prev:before {
+	content: initial;
+}
+.slider-sec .slick-next {
+    right: 18%;
+    width: 30px;
+    height: 30px;
+}
+.slider-sec .slick-prev {
+    left: 18%;
+    width: 30px;
+    height: 30px;
+}
+
+.slider-sec .slick-slide img {
+    display: block;
+    width: 100%;
+}
+
+.slider-sec .content-wrap{
+    position: absolute;
+    top: 20%;
+    max-width: 430px;
+    margin-left: 420px;
+    /* width: 16%; */
+    left: auto;
+    right: auto;
+}
+.slider-sec .content-wrap .content-heading{
+    color: #464646;
+    font-weight: 900;
+    font-family: 'Montserrat';
+}
+.slider-sec .content-wrap .desc{
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	color: #464646;
+}
+
+.hiking-img-wrap img{width: 100%;}
+.flavors-img-wrap img{width: 100%;}
+.story-img-wrap img{width: 100%;}
+
+
+.top-banner img{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.neau-water-sec .imagine-heading{
+    color: #959595;
+    font-family: 'Montserrat';
+    text-align: right;
+    font-weight: 700;
+}
+.neau-water-sec .imagine-desc{
+    font-family: 'Montserrat';
+    color: #959595;
+}
+.neau-water-sec .desc span{font-weight: 700;}
+
+.neau-water-sec .wave-background{
+    background-image: url(/neau-demo/wp-content/uploads/2022/05/Untitledsss-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.neau-water-sec .card-wrap{
+    display: flex;
+    align-items: center;
+}
+.neau-water-sec .card-wrap.left .card-content{margin-left: 20px;}
+.neau-water-sec .card-wrap.right .card-content{margin-right: 20px;}
+.neau-water-sec .card-wrap .card-content .heading{
+    color: #4dc0e8;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+.neau-water-sec .card-wrap .card-content .desc{
+    font-family: 'Noto Sans';
+    color: #a5a5a5;
+}
+
+.neau-story-sec .story-heading{
+    color: #4dc0e8;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.neau-story-sec .story-desc{
+	color: #000;
+    font-family: 'Montserrat';
+}
+.text-right{text-align: right;}
+.neau-story-sec .neau-logo{
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.water-sec {
+    background-image: url(/neau-demo/wp-content/uploads/2022/05/TRUTH-ABeeOUT-WATER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: bottom;
+}
+
+.water-sec .water-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff;
+}
+.water-sec .water-desc{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #fff;
+    max-width: 562px;
+}
+.water-sec .arrow-img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.text-left{text-align: left;}
+.water-sec .water-content{text-align: center;}
+.water-sec .water-bn-btn{
+    background-color: #00367d;
+    border-color: #fff;
+    border-radius: initial;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 6px 35px;
+}
+.water-sec .water-bn-btn:hover{
+    color: #00367d;
+    background-color: #fff;
+}
+.water-sec .water-bn-btn:active{
+	background-color: #fff;
+}
+.water-sec .water-bn-btn:focus{
+	background-color: #fff;
+    box-shadow: initial;
+}
+.water-sec .water-bn-btn-wrap {
+    background-image: url(/neau-demo/wp-content/uploads/2022/05/Group-16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: max-content;
+    padding: 28px 45px;
+    margin: auto;
+}
+.truth-section{
+	background-image: url(/neau-demo/wp-content/uploads/2022/05/TRUTH-ABOUT-WATER-1-e1654022304256.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+    background-position: 50% 50%;
+}
+.truth-container{    
+    max-width: 725px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.truth-section .truth-heading{
+	font-family: 'Montserrat';
+    font-weight: 700;
+    color: #797979;
+}
+
+.truth-section p{
+	font-family: 'Montserrat';
+    font-weight: 400;
+    color: #434343;
+}
+.op-sec{text-align: center;}
+.op-sec .op-heading{
+    color: #4dc0e8;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 3rem;
+}
+.op-sec .op-desc{
+    text-align: left;
+    max-width: 635px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+.faq-sec{
+    background-color: #f0f0f0;
+    height: 610px !important;
+    margin-top: -90px;
+    position: relative;
+    z-index: -1;
+    padding-top: 100px;
+}
+.faq-sec .fp-tableCell{height: 610px !important;}
+.faq-sec .main-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #4dc0e8;
+}
+.faq-sec .bold-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #4dc0e8;
+}
+.faq-sec p{
+    font-family: 'Montserrat';
+    color: #000;
+}
+.faq-sec .accordion{
+    background-color: #d9d9d9 !important;
+    --bs-accordion-bg: #d9d9d9 !important;
+}
+.faq-sec .accordion-button.collapsed{
+    background-color: #f0f0f0 !important;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+.faq-sec .accordion-button{
+    background-color: #d9d9d9 !important;
+    flex-direction: row-reverse;
+}
+.faq-sec .accordion-collapse.collapse{
+    background-color: #d9d9d9 !important;
+    border-radius: initial !important;
+}
+.faq-sec .accordion-button:focus{
+    box-shadow: initial !important;
+}
+.faq-sec .accordion-button:not(.collapsed)::after {
+    background-image: url('/neau-demo/wp-content/uploads/2022/05/unnamed-file-1.png') !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+.faq-sec .accordion-button.collapsed::after {
+    background-image: url('/neau-demo/wp-content/uploads/2022/05/unnamed-file.png') !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+.faq-sec .inner-header-container{
+    max-width: 1000px;
+    margin: 0 auto 0 25px;
+}
+.faq-sec .inner-body-container{
+    max-width: 790px;
+    margin: 0 auto 0 auto;
+}
+.faq-sec .accordion-item{border: 0;}
+
+.testimonials-sec {
+  background-color: #fff;
+  box-shadow: 0px 0px 32.3px 5.7px rgba(0, 0, 0, 0.13);
+  width: 2234px;
+  height: 310px !important;
+  z-index: 97;
+}
+.testimonials-sec .fp-tableCell{height: 310px !important;}
+.testimonials-sec .main-heading{
+    color: #797979;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.testimonials-sec .testimonials-slider .testimonial-text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+.testimonials-sec .testimonials-slider i.fa.fa-star {
+    color: #f8ac00;
+    font-size: 20px;
+}
+.testimonials-sec .testimonials-slider i.fa.fa-star.empty {
+    color: #58585a;
+    font-size: 20px;
+}
+.testimonials-sec .testimonials-col {
+    max-width: 560px;
+    margin: auto;
+}
+.testimonials-sec .rating-wrap{
+    text-align: right;
+}
+
+.social-feeds-sec{
+    background-color: #efefef;
+    height: 610px !important;
+}
+.social-feeds-sec .fp-tableCell{height: 610px !important;}
+.social-feeds-sec .main-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #4dc0e8;
+    text-align: center;
+    
+}
+.social-feeds-sec .sf-item .inner-wrap {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8.184px 8.776px 8px 0px rgb(0 0 0 / 19%);
+    padding: 20px 30px;
+    font-family: 'Montserrat';
+}
+
+.social-feeds-sec .slick-slide {
+  margin: 0 27px;
+}
+.social-feeds-sec .slick-list {
+  padding-top: 30px;
+    padding-bottom: 36px;
+    /*border: 1px solid;*/
+}
+.social-feeds-sec .slick-slide img {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+/*Media Queries*/
+
+@media(device-width: 1536px) {
+	.slider-sec .content-wrap {
+	    top: 15%;
+	    max-width: 430px;
+	    margin-left: 320px;
+	}
+}
+
+@media (device-width: 1920px){
+    header nav.fixed-top {
+        padding-top: 50px;
+    }
+    header .logo-wrap img {
+        max-width: 215px;
+        padding-right: 50px;
+        margin-right: 115px;
+    }
+    header .logo-wrap.rotate-logo img {
+        padding-left: 40px;
+        max-width: 245px;
+    }
+    .bottle-img-wrap {
+        max-width: 640px;
+        bottom: 0;
+        left: -145px;
+        right: 0;
+    }
+    .neau-water-sec{height:920px !important;}
+    .neau-water-sec .fp-tableCell{height:920px !important;}
+    .neau-story-sec{height: 1100px !important;}
+    .neau-story-sec .fp-tableCell{height: 1100px !important;}
+    .op-sec {height: 900px !important;}
+    .op-sec .fp-tableCell{height: 900px !important;}
+    .social-feeds-sec{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media(max-width: 580px){
+    #fp-nav ul li, .fp-slidesNav ul li{width: 132px !important;}
+    #fp-nav ul li a.active span{
+        height: 10px;
+        width: 10px;
+        margin: -5px 0 0 -5px;
+    }
+    #fp-nav ul li a span{left: 65% !important;}
+    #fp-nav ul li .fp-tooltip{font-size: 10px !important;}
+    .bottle-img-wrap {
+        /*max-width: 324px;*/
+        bottom: 0;
+        left: -105px;
+        right: 0;
+    }
+    .truth-section{height: 1100px !important;    margin-top: -148px;}
+    .truth-section .fp-tableCell{height: 1100px !important;}
+    .neau-story-sec .neau-logo{text-align: center;padding: 0;margin-bottom: 30px;}
+    .water-sec .arrow-img{top: -1px;}
+    .water-sec{height: 1000px !important;}
+    .water-sec .fp-tableCell{height: 1000px !important;padding-bottom: 92px;}
+    .water-sec .fp-tableCell .container{margin: 0 !important;}
+    .water-sec img.water-bottle{
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .faq-sec{margin-top: -155px ;}
+    .op-sec{height: 436px  !important;}
+    .op-sec .fp-tableCell{height: 436px !important;}
+    .op-sec .op-desc{text-align: center;}
+    .neau-water-sec{margin-top: 0px !important;}
+    .neau-water-sec .card-wrap {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+    }
+    .neau-water-sec .card-wrap.left .card-content {
+        margin-left: inherit;
+        margin-top: 20px;
+    }
+    .neau-water-sec .card-wrap .card-content {
+        margin-top: 20px;
+    }
+    .neau-water-sec .card-wrap.right {flex-direction: column-reverse;}
+    .hiking-sec{height: 230px !important;}
+    .hiking-sec .fp-tableCell{height: 230px !important;}
+    .flavors-sec{height: 200px !important;}
+    .flavors-sec .fp-tableCell{height: 200px !important;}
+    .neau-story-sec {height: 715px !important;}
+    .neau-story-sec .fp-tableCell{height: 715px !important;}
+
+    .slider-sec{height: 270px !important;}
+    .slider-sec .fp-tableCell{height: 270px !important;}
+    .slider-sec .content-wrap{
+        position: relative;
+        margin-top: 20px;
+    }
+    .slider-sec .slick-slider-dots{bottom: -55px;}
+    .slider-sec .slick-slider-dots li.slick-active button {
+        background: #4dc0e8;
+        color: #4dc0e8;
+        height: 10px;
+    }
+    .slider-sec .slick-slider-dots li button {
+        background: #4dc0e8;
+    }
+
+    header button.buy-now {
+        background-color: #4dc0e8 !important;
+        border-color: #4dc0e8 !important;
+        text-transform: uppercase;
+        padding: 4px 10px;
+        font-size: 11px;
+    }
+    header i {
+        color: #b1b1b1;
+        font-size: 15px !important;
+        margin-right: 1px;
+    }
+    header .logo-wrap{width: 50%;}
+    header .logo-wrap img{max-width: 170px;}
+
+    footer .newsletter-text-wrap {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer .newsletter-form-wrap .es_txt_email {
+        padding: 13px 20px 13px 15px;
+        width: initial;
+        border-radius: initial;
+    }
+    .footer-desc{margin-top: 35px;}
+    footer .footer-logo-wrap {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
